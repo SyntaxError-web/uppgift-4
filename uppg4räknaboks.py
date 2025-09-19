@@ -1,6 +1,6 @@
 # Program för att räkna antal vokaler i en text
 
-# 1. Be användaren mata in en text
+# 1. Läs in text från användaren
 text = input("Mata in en text: ")
 
 # 2. Sätt en räknare till 0
@@ -12,5 +12,5 @@ for tecken in text:
     if tecken.lower() in "aeiou":
         vokal_raknare += 1
 
-# 5. Skriv ut antalet vokaler
+# 5. Skriv ut räknarens värde
 print(f"Antal vokaler i texten är: {vokal_raknare}")
